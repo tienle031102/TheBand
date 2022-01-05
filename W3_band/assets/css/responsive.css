@@ -1,0 +1,100 @@
+/* PC */
+@media (min-width: 64em){
+
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .footer-header a {
+        font-size: 42px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em){
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav{
+        display: block;
+    }
+    
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    .subnav a {
+        padding: 4px;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #ccc;
+        box-shadow: none;
+        width: 100%;
+    } 
+
+    #nav .subnav a {
+        background-color: rgb(131, 129, 129);
+        color: #fff;
+        padding-left: 32px;
+    }
+
+    .Buy-tickets, 
+    .contact-submit-info {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .contact-form-info {
+        font-size: 18px;
+    }
+
+    .member-img {
+        width: 60px;
+    }
+
+    .mobile-colFull {
+        width: 100%;
+    }
+
+    #container .member-img {
+        width: 230px;
+    }
+
+    .mobile-tour {
+        width: 100%;
+    }
+
+    .mobile-form-info {
+        width: 100%;
+    }
+
+    .footer-header a {
+        font-size: 32px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+}
